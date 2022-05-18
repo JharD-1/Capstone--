@@ -165,8 +165,11 @@ input[type=checkbox]:checked ~ .menu{
 /* Main */
 .row {
   padding: 5rem 5rem;
-  Margin: 0 auto;
+  margin: 0 auto;
 }
+.row [class^=col-] {
+  margin: 1rem auto;
+} 
 
 
 /* Main Footer */
