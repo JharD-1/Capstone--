@@ -161,12 +161,6 @@ input[type=checkbox]:checked ~ .menu{
   width: 60%;
   margin: 0 20%;
 }
-@media (max-width: 768px) {
-.carousel-item .w-60 {
-  width: 40%;
-  margin: 0 10%;
-}
-} 
 
 /* Main Footer */
 footer .main-footer{  padding: 20px 0;  background: #252525;}
