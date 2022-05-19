@@ -12,21 +12,21 @@ form.addEventListener('submit', e => {
 });
 
 const setError = (element, message) => {
-    const inputControl = element.parentElement;
-    const errorDisplay = inputControl.querySelector('.error');
+    const formField= element.parentElement;
+    const errorDisplay = formField.querySelector('.error');
 
     errorDisplay.innerText = message;
-    inputControl.classList.add('error');
-    inputControl.classList.remove('success')
+    formField.classList.add('error');
+    formField.classList.remove('success')
 }
 
 const setSuccess = element => {
-    const inputControl = element.parentElement;
-    const errorDisplay = inputControl.querySelector('.error');
+    const formField = element.parentElement;
+    const errorDisplay = formField.querySelector('.error');
 
     errorDisplay.innerText = '';
-    inputControl.classList.add('success');
-    inputControl.classList.remove('error');
+    formField.classList.add('success');
+    formField.classList.remove('error');
 };
 
 const isValidEmail = email => {
