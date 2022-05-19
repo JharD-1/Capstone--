@@ -329,7 +329,7 @@ ul.social-footer2 li a {
 .field-icon {
   float: right;
   margin-left: -25px;
-  margin-top: -30px;
+  margin-top: -20px;
   position: relative;
   z-index: 2;
 }
@@ -345,5 +345,4 @@ ul.social-footer2 li a {
   color: white;
   text-align: end;
   padding: 10px 20px;
-  width: 50%;
 }
