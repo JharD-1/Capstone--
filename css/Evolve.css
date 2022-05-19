@@ -315,15 +315,15 @@ ul.social-footer2 li a {
   margin-bottom: 1.3rem;
 }
 .form-field .success input{
-  border-color:#09c372;
+  border-color:#09c372 !important;
 } 
 .form-field .error input{
-  border-color:#ff3860;
+  border-color:#ff3860 !important;
 } 
 .form-field .error {
   color: #ff3860;
   font-size: 9px;
-  height: 13px;
+  height: 8px;
 } 
 .field-icon {
   float: right;
