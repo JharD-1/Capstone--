@@ -75,7 +75,7 @@ const validateInputs = () => {
 //EYE TOGGLER
 const password = document.getElementById('password');
 const password2 = document.getElementById('password2');
-const toggle =document.getElementById('toggle');
+const toggle = document.getElementById('toggle');
 
 function showHide() {
   if (password type === 'password'){
