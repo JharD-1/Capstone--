@@ -9,6 +9,9 @@
 html {
   font-size: 60.5%;
 }
+@supports (scroll-behavior: smooth) {
+    html {
+      scroll-behavior: smooth; } }
 
 body {
    box-sizing: border-box;
