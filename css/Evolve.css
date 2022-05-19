@@ -307,12 +307,24 @@ ul.social-footer2 li a {
 }
 .heading-tertiary {
   text-transform: uppercase;
+  text-align:center;
 }
 .form-control {
   background-color: rgba(255, 255, 255, 0.4) !important;
   border: none;
   margin-bottom: 1.3rem;
 }
+.form-field .success input{
+  border-color:#09c372;
+} 
+.form-field .error input{
+  border-color:#ff3860;
+} 
+.form-field .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+} 
 .field-icon {
   float: right;
   margin-left: -25px;
