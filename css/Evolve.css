@@ -316,10 +316,10 @@ ul.social-footer2 li a {
   margin-bottom: 1.3rem;
 } 
 .form-field .success input{
-  border-color:#09c372 !important;
+  border-color: #09c372 !important;
 } 
 .form-field .error input{
-  border-color:#ff0000 !important;
+  border-color: #ff0000 !important;
 } 
 .form-field .error {
   color: #ff0000;
