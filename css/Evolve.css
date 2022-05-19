@@ -318,10 +318,10 @@ ul.social-footer2 li a {
   border-color:#09c372 !important;
 } 
 .form-field .error input{
-  border-color:#ff3860 !important;
+  border-color:#ff0000 !important;
 } 
 .form-field .error {
-  color: #ff3860;
+  color: #ff0000;
   font-size: 9px;
   height: 8px;
 } 
