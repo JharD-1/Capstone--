@@ -71,3 +71,24 @@ const validateInputs = () => {
     }
 
 };
+
+//EYE TOGGLER
+const password = document.getElementById('password');
+const password2 = document.getElementById('password2');
+const toggle =document.getElementById('toggle');
+
+function showHide() {
+  if (password type === 'password'){
+   password.setAttribute('type', 'text') ;
+   toggle.classList.add('hide')
+}
+  if (password2 type === 'password'){
+   password.setAttribute('type', 'text') ;
+   toggle.classList.add('hide')
+}
+else {
+   password.setAttribute('type', 'password') ;
+   toggle.classList.remove('hide')
+ }
+} 
+
