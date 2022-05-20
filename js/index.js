@@ -80,3 +80,26 @@ const validateInputs = () => {
     }
 
 };
+
+ //EYE TOGGLER
+ function toggle() {
+     if(password.getAttribute('type')==='password'){
+         password.setAttribute('type', 'text');
+         document.getElementById("eye").style.color='black';
+     }
+
+     else {
+        password.setAttribute('type', 'password');
+        document.getElementById("eye").style.color='white';
+     }
+
+     if(password2.getAttribute('type')==='password'){
+        password2.setAttribute('type', 'text');
+        document.getElementById("eyed").style.color='black';
+     }
+
+    else {
+        password2.setAttribute('type', 'password');
+        document.getElementById("eyed").style.color='white';
+     }
+ }
