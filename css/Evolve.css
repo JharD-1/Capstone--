@@ -329,8 +329,8 @@ ul.social-footer2 li a {
 } 
 .field-icon {
   position: absolute;
-  right: 50px;
-  transform: translate(0, -40%);
+  right: 80px;
+  transform: translate(0, -50%);
   cursor: pointer;
 }
 .fa-eye {
