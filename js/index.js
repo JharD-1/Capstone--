@@ -2,6 +2,7 @@
 const form = document.getElementById('form');
 const username = document.getElementById('username');
 const email = document.getElementById('email');
+const phoneNumber = document.getElementById('phoneNumber');
 const password = document.getElementById('password');
 const password2 = document.getElementById('password2');
 
@@ -37,6 +38,7 @@ const isValidEmail = email => {
 const validateInputs = () => {
     const usernameValue = username.value.trim();
     const emailValue = email.value.trim();
+    const phoneValue = phone.value.trim();
     const passwordValue = password.value.trim();
     const password2Value = password2.value.trim();
 
@@ -53,6 +55,13 @@ const validateInputs = () => {
     } else {
         setSuccess(email);
     }
+
+    if(phoneValue === '') {
+        setError(phone, 'Phone Number is required');
+    } else {
+        setSuccess(phone);
+    }
+
 
     if(passwordValue === '') {
         setError(password, 'Password is required');
