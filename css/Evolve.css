@@ -272,7 +272,7 @@ ul.social-footer2 li a {
   transform: translate(-50%, -50%);
   width: 75%;
   height: 50rem;
-  background-image: linear-gradient(to right, rgba(17, 17, 17, 0.329), rgba(0, 0, 0, 0.26)), url(../image/close-wardrope.jpeg);
+  background-image: linear-gradient(to right, rgba(54, 54, 56, 0.796), rgba(61, 61, 61, 0.824)), url(../image/close-wardrope.jpeg);
   background-size: cover;
   color: #fff;
   padding: 2rem 7rem;
