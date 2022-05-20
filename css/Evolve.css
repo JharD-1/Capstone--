@@ -334,8 +334,7 @@ ul.social-footer2 li a {
   cursor: pointer;
 }
 .fa-eye {
-  font-size: 15px;
-  color: #ffffff;
+  font-size: 5px;
 }
 .form-control::placeholder {
   color: #eee;
